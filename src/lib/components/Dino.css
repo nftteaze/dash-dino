@@ -98,3 +98,18 @@ html[subframe] body {
     margin-top: 5%;
   }
 }
+/* ... (other styles) */
+
+.title {
+  font-size: 2em;
+  text-align: center;
+}
+
+.dash {
+  color: #22CD9B; /* Set the color of "Runner" to the specified hex color */
+}
+
+.dash.black {
+  color: black; /* Set the color of "Dash" to black */
+}
+
