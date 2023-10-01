@@ -113,3 +113,15 @@ html[subframe] body {
   color: black; /* Set the color of "Dash" to black */
 }
 
+.start-menu {
+  text-align: center;
+  margin-top: 100px; /* Adjust the margin-top value as needed to center the StartMenu vertically */
+}
+
+.start-menu h1 .dash {
+  color: black; /* Set the color of "Dash" to black */
+}
+
+.start-menu h1 .runner {
+  color: #22CD9B; /* Set the color of "Runner" to the specified hex color */
+}
