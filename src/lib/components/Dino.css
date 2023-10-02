@@ -97,8 +97,8 @@ html[subframe] body {
   .interstitial-wrapper {
     margin-top: 5%;
   }
+  
 }
-/* ... (other styles) */
 
 .title {
   font-size: 2em;
@@ -106,22 +106,14 @@ html[subframe] body {
 }
 
 .dash {
-  color: #22CD9B; /* Set the color of "Runner" to the specified hex color */
+  color: #0d0e0d; /* Set the color of "Dash" to green (#0d0e0d) */
 }
 
-.dash.black {
-  color: black; /* Set the color of "Dash" to black */
+body.night-mode {
+  background-color: #000000 !important;
+  color: #ffffff !important;
 }
 
-.start-menu {
-  text-align: center;
-  margin-top: 100px; /* Adjust the margin-top value as needed to center the StartMenu vertically */
-}
-
-.start-menu h1 .dash {
-  color: black; /* Set the color of "Dash" to black */
-}
-
-.start-menu h1 .runner {
-  color: #22CD9B; /* Set the color of "Runner" to the specified hex color */
+.night-mode .dash {
+  color: white; /* Set the color of "Dash" to white in night mode */
 }

@@ -1,0 +1,21 @@
+.start-menu {
+    text-align: center;
+    margin-top: 100px; /* Adjust the margin-top value as needed to center the StartMenu vertically */
+  }
+  
+  .start-menu h1 {
+    font-size: 2em;
+  }
+  
+  .start-menu .dash {
+    color: #0d0e0d; /* Set the color of "Dash" to green (#22CD9B) */
+  }
+  
+  .start-menu .runner {
+    color: #22CD9B; /* Set the color of "Runner" to green (#22CD9B) */
+  }
+  
+  body.night-mode .start-menu .dash {
+    color: white; /* Set the color of "Dash" to white in night mode */
+  }
+  
